@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "moeba": {
+      "command": "node",
+      "args": ["dist/moeba-channel.js", "--login"],
+      "autoApprove": ["moeba_reply", "moeba_progress"]
+    }
+  }
+}

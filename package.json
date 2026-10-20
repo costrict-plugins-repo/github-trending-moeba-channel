@@ -1,0 +1,44 @@
+{
+  "name": "moeba-claude-channel",
+  "version": "0.0.48",
+  "description": "Claude Code channel for Moeba — chat with Claude Code from the Moeba app",
+  "type": "module",
+  "main": "dist/moeba-channel.js",
+  "bin": {
+    "moeba-claude-channel": "dist/moeba-channel.js",
+    "moeba-notify": "dist/moeba-notify.js"
+  },
+  "files": [
+    "dist",
+    ".claude-plugin",
+    ".mcp.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build && chmod +x dist/moeba-channel.js"
+  },
+  "keywords": [
+    "claude-code",
+    "mcp",
+    "moeba",
+    "channel",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moeba-co/moeba"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.9.0"
+  }
+}

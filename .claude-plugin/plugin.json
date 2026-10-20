@@ -1,0 +1,12 @@
+{
+  "name": "moeba-channel",
+  "description": "Chat with Claude Code from the Moeba mobile app. Two-way bridge that lets you send messages from your phone and get responses from your Claude Code session.",
+  "version": "0.0.48",
+  "author": {
+    "name": "Moeba",
+    "email": "hello@moeba.co.za"
+  },
+  "homepage": "https://moeba.co.za",
+  "repository": "https://github.com/moeba-co/moeba",
+  "license": "MIT"
+}
